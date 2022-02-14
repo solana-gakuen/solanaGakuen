@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: "BaksoSapi";
+    src: local("BaksoSapi"),
+    url("./assets/font/BaksoSapi.otf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "FuturaHandwritten";
+    src: local("FuturaHandwritten"),
+    url("./assets/font/FuturaHandwritten.ttf") format("truetype");
+    font-weight: bold;
+}
+
+.boxContainer .css-10hburv-MuiTypography-root{
+    font-family: BaksoSapi !important;
+}
+
+#icon{
+    flex-grow: 1;
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(-45deg, #0FF4B8 0%, #76D6FB 40%, #AF71FF 70%, #698BF4 100%) !important;
+    opacity: 0.9;
+    padding: 2vw;
+    margin: 5vw;
+    margin-bottom: 10vh;
+}
+
+#menu{
+    font-family: BaksoSapi !important;
+}

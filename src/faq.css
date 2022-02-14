@@ -1,0 +1,67 @@
+
+@font-face {
+    font-family: "BaksoSapi";
+    src: local("BaksoSapi"),
+    url("./assets/font/BaksoSapi.otf") format("truetype");
+    font-weight: bold;
+}
+
+.faqContainer {
+    font-family: BaksoSapi;
+    height: auto;
+    /*background-image: url('./assets/faq_bg.png');*/
+    /*!*transform: rotate(-20deg);*!*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: auto;*/
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+}
+.faqContainer .bgImg{
+    position: absolute;
+    width: 120%;
+    right: 0;
+    z-index:-1;
+}
+.faqContainer .title {
+    margin-top:10%;
+    padding: 10px 0% 10px 0%;
+    background: #cc8c95;
+    width:15%;
+    margin-bottom: 5vh;
+    font-size: 300%;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+}
+.faqContainer .faqDetail {
+    padding: 1% 0% 10% 0%;
+    width:100%;
+    max-width: 800px;
+}
+
+
+@font-face {
+    font-family: "Nunito-Italic-VariableFont_wght";
+    src: local("Nunito-Italic-VariableFont_wght"),
+    url("./assets/font/Nunito-Italic-VariableFont_wght.ttf") format("truetype");
+    font-weight: bold;
+}
+
+.faqContainer .MuiList-root{
+    border-radius: 25px;
+}
+
+.faqContainer .MuiTypography-root{
+    font-family: BaksoSapi;
+    color: #ffffff;
+    font-size:5vw;
+    font-weight: bold;
+    /*text-shadow: 2px 2px 10px #641515;*/
+}
+
+
+/*.faqContainer .css-ishquk-MuiButtonBase-root-MuiListItemButton-root:hover{*/
+/*    background: rgba(284,215,225, 0.5);*/
+/*}*/

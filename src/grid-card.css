@@ -1,0 +1,45 @@
+.gridCardContainer {
+    height: 100vh;
+    overflow: hidden;
+    /*padding: 0 0% 10% 0%;*/
+}
+.gridCardContainer .cardsContainer{
+
+}
+
+.gridCardContainer .barContainer{
+    position: relative;
+    /*left: 0px;*/
+    z-index: -2;
+}
+
+.gridCardContainer .cards {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    height: auto;
+    transform: rotate(-10deg);
+    z-index: 100;
+}
+
+.gridCardContainer .bar{
+    width: 100%;
+    position: relative;
+    padding: 0 0 10% 0;
+    transform: rotate(20deg);
+}
+
+.gridCardContainer .girlContainer{
+    position: relative;
+    height: auto;
+}
+
+.gridCardContainer .dialogContainer {
+
+}
+
+.gridCardContainer .dialogContainer #dialogTitle {
+    font-size: 3vw;
+    color: rebeccapurple;
+    margin-bottom: 0 !important;
+}

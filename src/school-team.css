@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "BaksoSapi";
+    src: local("BaksoSapi"),
+    url("./assets/font/BaksoSapi.otf") format("truetype");
+    font-weight: bold;
+}
+.schoolTeamContainer {
+    /*position: relative;*/
+}
+
+.schoolTeamContainer .schoolTeamTitle {
+    font-weight: bold;
+    text-align: center;
+    font-size: 3vw;
+    font-family: "BaksoSapi";
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.schoolTeamContainer .schoolTeamDetail .MuiGrid-item{
+    font-family: "BaksoSapi";
+    text-align: center;
+    padding: 0% 5% 5% 5%;
+}
+.schoolTeamContainer .schoolTeamDetail .gridcard{
+}
+
+.schoolTeamContainer .schoolTeamDetail .cards{
+    position: relative;
+    width: 85%;
+}
+
+.schoolTeamContainer .schoolTeamDetail .title{
+    flex-grow: 1;
+    font-family: BaksoSapi !important;
+    font-size: 1.2vw !important;
+    padding-left:5px;
+}
+
+.schoolTeamContainer .schoolTeamDetail .name {
+    flex-grow: 1;
+    font-family: BaksoSapi !important;
+    font-size: 1.5vw !important;
+    padding-left:5px;
+
+}
+
+.schoolTeamDetail .MuiGrid-spacing-xs-2{
+    margin: 0px !important;
+}
+
+@keyframes MoveUpDownJoinNow {
+    0%, 100% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 10px;
+    }
+}
+
+.joinNow {
+    animation: MoveUpDownJoinNow 0.5s linear infinite;
+    position: relative;
+    bottom: 10vh;
+}
+

@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "KgHappy";
+  src: local("KgHappy"),
+  url("./assets/font/kghappy.ttf") format("truetype");
+  font-weight: bold;
+}
+
+
+body {
+  font-family: KgHappy;
+}
