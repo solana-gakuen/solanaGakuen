@@ -33,7 +33,8 @@ const GridCardMobile: FunctionComponent = ()=>{
     return (
         <Grid container spacing={2} sx={
             {
-                height: "100vh",
+                height: "auto",
+                minHeight: "100vh",
                 overflow: "hidden",
                 backgroundColor: "#fAfAfA",
                 zIndex: -2,

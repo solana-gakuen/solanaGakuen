@@ -50,14 +50,14 @@ const GridCard: FunctionComponent = ()=>{
                         }} />
                     </div>
                 </Grid>
-                <Grid item xs={6} sx={{margin: "auto", overflow: "hidden"}}>
+                <Grid item xs={6} sx={{margin: "auto"}}>
                     <div ref={dialog.ref} style={{position: "relative"}}>
                         <Box sx={{
                             margin: "auto",
                             width: "80%",
                             fontFamily: "BaksoSapi",
                             padding:"5% 3% 5% 7%",
-                            zIndex: 1,
+                            zIndex: 100,
                             lineHeight: 1.8,
                             fontSize: "1.5vw",
                             color: 'rebeccapurple',
