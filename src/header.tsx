@@ -1,5 +1,4 @@
-import {AppBar, Button, Grid, IconButton, Slide, Toolbar, Typography} from '@material-ui/core';
-import MenuIcon from '@material-ui/icons/Menu';
+import {AppBar, Button, Grid, Slide, Toolbar, Typography} from '@material-ui/core';
 import React, {FunctionComponent, MouseEvent, useEffect, useState} from 'react';
 import './header.css';
 import LogoImg from './assets/solana-gakuen-logo-01.png'
@@ -34,25 +33,26 @@ const Header: FunctionComponent = ()=>{
                         {/*</IconButton>*/}
                         <img src={LogoImg} className="logoImg" alt={"Logo image"} />
                         <Typography className="title">Solana Gakuen</Typography>
+                        <Button color="inherit" className="navigate" href="#characters">Characters</Button>
                         <Button color="inherit" className="navigate" href="#roadmap">Calendar</Button>
                         <Button color="inherit" className="navigate" href="#faq">FAQ</Button>
-                        <Button color="inherit" className="navigate" href="#team">Team</Button>
-                        <Button color="inherit"
-                                className="navigate social"
-                                href={"http://discord.gg/EhdeGYyYx2"}
-                                target={"_blank"}>
-                            <SportsEsportsIcon/>DC
-                        </Button>
-                        <Button
-                            color="inherit"
-                            className="navigate social"
-                            href={"https://twitter.com/SolanaGakuen"}
-                            target={"_blank"}>
-                            <TwitterIcon/>TW</Button>
-                        <Button color="inherit"
-                                className="navigate social"
-                                href={"https://www.instagram.com/solana_gakuen"}
-                                target={"_blank"}><InstagramIcon/>IG</Button>
+                        <Button color="inherit" className="navigate" href="#team">School Team</Button>
+                        {/*<Button color="inherit"*/}
+                        {/*        className="navigate social"*/}
+                        {/*        href={"http://discord.gg/EhdeGYyYx2"}*/}
+                        {/*        target={"_blank"}>*/}
+                        {/*    <SportsEsportsIcon/>DC*/}
+                        {/*</Button>*/}
+                        {/*<Button*/}
+                        {/*    color="inherit"*/}
+                        {/*    className="navigate social"*/}
+                        {/*    href={"https://twitter.com/SolanaGakuen"}*/}
+                        {/*    target={"_blank"}>*/}
+                        {/*    <TwitterIcon/>TW</Button>*/}
+                        {/*<Button color="inherit"*/}
+                        {/*        className="navigate social"*/}
+                        {/*        href={"https://www.instagram.com/solana_gakuen"}*/}
+                        {/*        target={"_blank"}><InstagramIcon/>IG</Button>*/}
 
                     </Toolbar>
                 </AppBar>

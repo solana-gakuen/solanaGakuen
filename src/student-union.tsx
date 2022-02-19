@@ -223,15 +223,15 @@ const StudentUnion: FunctionComponent = ()=>{
         studentImages: {
             div: {
                 css: {
-                    marginLeft: "15vw",
-                    marginRight: "15vw",
+                    marginLeft: "5vw",
+                    marginRight: "5vw",
                     display: "inline-flex",
                     width: "100%",
                     height: "15vh",
                 }
             },
             css: {
-                minHeight: "5vh",
+                minHeight: "6vh",
                 margin: "auto",
                 position: "relative" as const
             },
@@ -242,7 +242,7 @@ const StudentUnion: FunctionComponent = ()=>{
                 css: {
                     position: "relative" as const,
                     borderRadius: "50%",
-                    height: "4vw",
+                    height: "5vw",
                     top: "10%",
                     display: "block",
                     marginLeft: "auto",
@@ -251,17 +251,17 @@ const StudentUnion: FunctionComponent = ()=>{
                 questionMarkCss: {
                     position: "relative" as const,
                     borderRadius: "50%",
-                    height: "4vw",
-                    width: "4vw",
-                    top: "20%",
+                    height: "5vw",
+                    width: "5vw",
+                    top: "2%",
                     display: "block",
                     marginLeft: "auto",
                     marginRight: "auto",
                     verticalAlign: "middle",
                     fontFamily: "BaksoSapi",
-                    color: "#CBCAFE",
+                    color: "#a9a1f8",
                     textAlign: "center",
-                    fontSize: "2.7vw"
+                    fontSize: "3.3vw"
 
                 },
                 backgroundColor: {
@@ -278,12 +278,12 @@ const StudentUnion: FunctionComponent = ()=>{
                 president: {
                     css: {
                         top: "0",
-                        height: "5vw",
+                        height: "6vw",
                     },questionMarkCss: {
                         top: "0",
-                        height: "5vw",
-                        width: "5vw",
-                        fontSize: "3.5vw"
+                        height: "6vw",
+                        width: "6vw",
+                        fontSize: "4.3vw"
                     },
                 },
                 questionMark: {
@@ -531,7 +531,7 @@ const StudentUnion: FunctionComponent = ()=>{
                     marginRight: "auto",
                     verticalAlign: "middle",
                     fontFamily: "BaksoSapi",
-                    color: "#CBCAFE",
+                    color: "#a9a1f8",
                     textAlign: "center",
                     fontSize: "6vw"
 
@@ -791,9 +791,19 @@ const StudentUnion: FunctionComponent = ()=>{
 
 
     return (
-        <Grid container spacing={style.container.grid.spacing} sx={style.container.css}>
+        <Grid id={"characters"} container spacing={style.container.grid.spacing} sx={style.container.css}>
             <Grid item xs={style.title.grid.xs} sx={style.title.css}>
-                <h1>Student Union Members</h1>
+                <h1>Characters - Student Union</h1>
+                <div style={
+                    {
+                        fontFamily: "FuturaHandwritten",
+                        paddingBottom: "2vh"
+                    }
+                }>
+                    The school union is the top rarity in our collection with 10 students.<br/>
+                    Together they share their busy but happy school life.<br/>
+                    All the stories begin with them!
+                </div>
             </Grid>
             <div style={style.studentImages.div.css}>
                 <Grid container spacing={1}>
@@ -807,16 +817,16 @@ const StudentUnion: FunctionComponent = ()=>{
                         let imageDivStyle = member.profileCompleted? style.studentImages.image.css : style.studentImages.image.questionMarkCss;
 
                         //Background
-                        if(hover.index == index && hover.isHover){
+                        if(hover.index === index && hover.isHover){
                             imageDivStyle = {...imageDivStyle,...style.studentImages.image.backgroundColor.hover};
-                        } else if(index % 2 == 0) {
+                        } else if(index % 2 === 0) {
                             imageDivStyle = {...imageDivStyle,...style.studentImages.image.backgroundColor.even};
                         } else {
                             imageDivStyle = {...imageDivStyle,...style.studentImages.image.backgroundColor.odd};
                         }
 
                         //President
-                        if((index == 4 || index == 5 || index == 6) && !style.isMobile) {
+                        if((index === 4 || index === 5 || index === 6) && !style.isMobile) {
                             const presidentStyle = (member.profileCompleted) ?
                                 style.studentImages.image.president.css :
                                 style.studentImages.image.president.questionMarkCss;
@@ -828,7 +838,7 @@ const StudentUnion: FunctionComponent = ()=>{
 
                         let imageStyle = {};
                         //question mark
-                        if(index != 5) {
+                        if(index !== 5) {
                             imageDivStyle = {...imageDivStyle, ...style.studentImages.image.questionMark.css}
                         }
 
@@ -872,11 +882,11 @@ const StudentUnion: FunctionComponent = ()=>{
                                         <span></span>
                                         :
                                         <div style={style.studentImages.title.div.css}>
-                                            {hover.isHover && hover.index == member.index ? member.title : ""}
+                                            {hover.isHover && hover.index === member.index ? member.title : ""}
                                         </div>}
                                 </Grid>
                                 {
-                                    (style.isMobile && (member.index==4 || member.index==9)) ? <Grid item xs={0}></Grid> : ""
+                                    (style.isMobile && (member.index===4 || member.index===9)) ? <Grid item xs={0}></Grid> : ""
                                 }
                             </>
                         );
