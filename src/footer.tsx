@@ -46,7 +46,7 @@ const Footer: FunctionComponent = ()=>{
                 label="Discord"
                 value="Discord"
                 icon={<SportsEsportsIcon />}
-                href={"https://discord.gg/RAjAVpZkWN"}
+                href={"http://discord.gg/EhdeGYyYx2"}
                 target={"_blank"}
             />
         </BottomNavigation>

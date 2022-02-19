@@ -13,6 +13,7 @@ import SchoolTeam from "./school-team";
 import SchoolTeamMobile from "./school-team-mobile";
 import Footer from "./footer";
 import FooterMobile from "./footer-mobile";
+import StudentUnion from "./student-union";
 
 export interface HomeProps {
   startDate: number;
@@ -69,6 +70,7 @@ const Home = () => {
                 <Header/>
                 <GridSchool/>
                 <GridCard/>
+                <StudentUnion/>
                 <Roadmap/>
                 <Faq/>
                 <SchoolTeam/>
@@ -81,6 +83,7 @@ const Home = () => {
                 {/*<HeaderMobile/>*/}
                 <GridSchoolMobile/>
                 <GridCardMobile/>
+                <StudentUnion/>
                 <RoadmapMobile/>
                 <FaqMobile/>
                 <SchoolTeamMobile/>

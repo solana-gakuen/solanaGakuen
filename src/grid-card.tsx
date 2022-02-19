@@ -2,7 +2,7 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import React, {FunctionComponent, useEffect} from 'react';
 import './grid-card.css';
-import Cards from './assets/solana_student_card_x6_v3.png';
+import Cards from './assets/solana_student_card_x6_0219.png';
 import Bar from './assets/dot_bar.png';
 import {ParallaxBanner, useParallax} from "react-scroll-parallax";
 import DialogGirlImage from "./assets/solana_chan_live2d_v4.gif";
