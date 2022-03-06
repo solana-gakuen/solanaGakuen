@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.71212f85.chunk.css",
-    "main.js": "/static/js/main.588b85a7.chunk.js",
-    "main.js.map": "/static/js/main.588b85a7.chunk.js.map",
+    "main.js": "/static/js/main.06edaa8e.chunk.js",
+    "main.js.map": "/static/js/main.06edaa8e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.76a22a05.js",
     "runtime-main.js.map": "/static/js/runtime-main.76a22a05.js.map",
     "static/js/2.ba1abe06.chunk.js": "/static/js/2.ba1abe06.chunk.js",
@@ -18,6 +18,7 @@
     "static/media/combine-bg.1a178879.png": "/static/media/combine-bg.1a178879.png",
     "static/media/combine-fox-ears.03a37aa1.png": "/static/media/combine-fox-ears.03a37aa1.png",
     "static/media/coming-soon.30527c4f.png": "/static/media/coming-soon.30527c4f.png",
+    "static/media/council-takahashi-satsuki-ch.239de4e5.png": "/static/media/council-takahashi-satsuki-ch.239de4e5.png",
     "static/media/dot_bar.14dbe9a5.png": "/static/media/dot_bar.14dbe9a5.png",
     "static/media/faq_bg.3c58c581.png": "/static/media/faq_bg.3c58c581.png",
     "static/media/footer.css": "/static/media/kghappy.370c490e.ttf",
@@ -41,6 +42,6 @@
     "static/js/runtime-main.76a22a05.js",
     "static/js/2.ba1abe06.chunk.js",
     "static/css/main.71212f85.chunk.css",
-    "static/js/main.588b85a7.chunk.js"
+    "static/js/main.06edaa8e.chunk.js"
   ]
 }
