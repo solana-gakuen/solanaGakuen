@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.71212f85.chunk.css",
-    "main.js": "/static/js/main.06edaa8e.chunk.js",
-    "main.js.map": "/static/js/main.06edaa8e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.76a22a05.js",
-    "runtime-main.js.map": "/static/js/runtime-main.76a22a05.js.map",
-    "static/js/2.ba1abe06.chunk.js": "/static/js/2.ba1abe06.chunk.js",
-    "static/js/2.ba1abe06.chunk.js.map": "/static/js/2.ba1abe06.chunk.js.map",
-    "static/js/3.67025e57.chunk.js": "/static/js/3.67025e57.chunk.js",
-    "static/js/3.67025e57.chunk.js.map": "/static/js/3.67025e57.chunk.js.map",
+    "main.css": "/static/css/main.b9845d2d.chunk.css",
+    "main.js": "/static/js/main.b5d7e68a.chunk.js",
+    "main.js.map": "/static/js/main.b5d7e68a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5d7bce42.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5d7bce42.js.map",
+    "static/js/2.d1f47485.chunk.js": "/static/js/2.d1f47485.chunk.js",
+    "static/js/2.d1f47485.chunk.js.map": "/static/js/2.d1f47485.chunk.js.map",
+    "static/js/3.36e346ff.chunk.js": "/static/js/3.36e346ff.chunk.js",
+    "static/js/3.36e346ff.chunk.js.map": "/static/js/3.36e346ff.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.71212f85.chunk.css.map": "/static/css/main.71212f85.chunk.css.map",
-    "static/js/2.ba1abe06.chunk.js.LICENSE.txt": "/static/js/2.ba1abe06.chunk.js.LICENSE.txt",
-    "static/media/header.css": "/static/media/BaksoSapi.cceb2bbd.otf",
+    "static/css/main.b9845d2d.chunk.css.map": "/static/css/main.b9845d2d.chunk.css.map",
+    "static/js/2.d1f47485.chunk.js.LICENSE.txt": "/static/js/2.d1f47485.chunk.js.LICENSE.txt",
+    "static/media/school-team.css": "/static/media/BaksoSapi.cceb2bbd.otf",
     "static/media/index.css": "/static/media/Nunito-Italic-VariableFont_wght.1bb08487.ttf",
     "static/media/aoi-small.162bd68c.png": "/static/media/aoi-small.162bd68c.png",
     "static/media/combine-bg.1a178879.png": "/static/media/combine-bg.1a178879.png",
@@ -24,7 +24,6 @@
     "static/media/footer.css": "/static/media/kghappy.370c490e.ttf",
     "static/media/president.4cdf7b26.png": "/static/media/president.4cdf7b26.png",
     "static/media/shino-small.31259a73.png": "/static/media/shino-small.31259a73.png",
-    "static/media/solana-gakuen-logo-01.be341fa6.png": "/static/media/solana-gakuen-logo-01.be341fa6.png",
     "static/media/solana_chan_live2d_v4.b6ad5866.gif": "/static/media/solana_chan_live2d_v4.b6ad5866.gif",
     "static/media/roadmap.css": "/static/media/solana_roadmap_blackboard_new.0754665d.png",
     "static/media/solana_school_backdrop_v2.f581732e.png": "/static/media/solana_school_backdrop_v2.f581732e.png",
@@ -39,9 +38,9 @@
     "static/media/website-r-for-conbine_final.540f97f7.png": "/static/media/website-r-for-conbine_final.540f97f7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.76a22a05.js",
-    "static/js/2.ba1abe06.chunk.js",
-    "static/css/main.71212f85.chunk.css",
-    "static/js/main.06edaa8e.chunk.js"
+    "static/js/runtime-main.5d7bce42.js",
+    "static/js/2.d1f47485.chunk.js",
+    "static/css/main.b9845d2d.chunk.css",
+    "static/js/main.b5d7e68a.chunk.js"
   ]
 }
